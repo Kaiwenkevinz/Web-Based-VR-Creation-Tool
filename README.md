@@ -7,7 +7,7 @@
 ![yjs](https://github.com/Kaiwenkevinz/Web-Based-VR-Creation-Tool-Demo/blob/main/imgs/yjs_overview.png?raw=true)
 
 ## 使用树形结构前，如何获取最新值并渲染？
-![https://github.com/Kaiwenkevinz/Web-Based-VR-Creation-Tool-Demo/blob/main/imgs/before_tree.png?raw=true]
+![before_tree](https://github.com/Kaiwenkevinz/Web-Based-VR-Creation-Tool-Demo/blob/main/imgs/before_tree.png?raw=true)
 组件 A 监听字符串 A -> 用户更新字符串 -> 回调中获取字符串 A 最新值 -> 调用相应的 setState  
 组件 B 监听字符串 B -> 用户更新字符串 -> 回调中获取字符串 B 最新值 -> 调用相应的 setState  
 组件 C 监听字符串 C -> 用户更新字符串 -> 回调中获取字符串 C 最新值 -> 调用相应的 setState  
